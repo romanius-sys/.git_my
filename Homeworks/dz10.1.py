@@ -2,7 +2,11 @@ def pow(x):
     return x ** 2
 
 def some_gen(begin, n, func):
-
+    """
+    begin: перший елемент послідовності
+    n: кількість елементів у послідовності
+    func: функція, яка формує значення для послідовності
+    """
     count = 0
     current = begin
     while count < n:
